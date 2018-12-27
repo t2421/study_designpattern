@@ -8,3 +8,6 @@ OldDartyEmailNotificationをラップしている。
 
 一旦アダプターパターンで実装して、後からOldDartyEmailNotificationをリファクタリングしても  
 使う側に変更はないところもメリット。
+
+基本的には１対１対応なのかな？
+複数のものを束ねる場合はFacadeとかになるのかもしれない。
