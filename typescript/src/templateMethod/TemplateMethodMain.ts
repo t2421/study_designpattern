@@ -1,9 +1,9 @@
 import MailNotification from './MailNotification'
 import SlackNotification from './SlackNotification'
+import Notification from './Notification'
 
 export default class TemplateMethodMain {
-  private _mail: MailNotification = new MailNotification()
-  private _slack: SlackNotification = new SlackNotification()
+  private _notification: Notification
 
   constructor() {
     this.init()
@@ -12,7 +12,10 @@ export default class TemplateMethodMain {
     let data = {
       name: 'テンプレート太郎'
     }
-    this._mail.notify(data)
-    this._slack.notify(data)
+    this._notification = new MailNotification()
+    this._notification.notify(data)
+
+    this._notification = new SlackNotification()
+    this._notification.notify(data)
   }
 }

@@ -1,4 +1,4 @@
-export default abstract class AbstractNotification {
+export default abstract class Notification {
   abstract notify(data: any): void
 
   protected createMessage(data: any) {
