@@ -4,4 +4,5 @@ import TemplateMethodMain from './templateMethod/TemplateMethodMain'
 import FactoryMethodMain from './factoryMethod/FactoryMethodMain'
 import PrototypeMain from './prototype/Main'
 import BuilderMain from './builder/Main'
-var main = new BuilderMain()
+import AbstractFactoryMain from './abstractfactory/Main'
+var main = new AbstractFactoryMain()
