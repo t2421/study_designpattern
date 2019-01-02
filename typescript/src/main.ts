@@ -5,4 +5,5 @@ import FactoryMethodMain from './factoryMethod/FactoryMethodMain'
 import PrototypeMain from './prototype/Main'
 import BuilderMain from './builder/Main'
 import AbstractFactoryMain from './abstractfactory/Main'
-var main = new AbstractFactoryMain()
+import BridgeMain from './bridge/Main'
+var main = new BridgeMain()
