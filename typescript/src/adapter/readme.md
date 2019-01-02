@@ -13,4 +13,4 @@ OldDartyEmailNotificationをラップして使っている。
 また、MailNotificationに対して適切なテストがされていれば、OldDartyEmailNotificationをリファクタリングしやすい。
 
 基本的には１対１対応なのかな？
-複数のものを束ねる場合はFacadeとかになるのかもしれない。
+複数の処理を束ねる場合はFacadeとかになるのかもしれない。

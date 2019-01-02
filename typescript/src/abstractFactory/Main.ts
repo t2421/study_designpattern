@@ -1,5 +1,5 @@
-import Factory from './factory/Factory'
 import Car from './factory/Car'
+import FactoryCreator from './factory/FactoryCreator'
 
 export default class Main {
   constructor() {
@@ -7,7 +7,7 @@ export default class Main {
   }
 
   init() {
-    let fitFacotry = Factory.getFactory('FitFactory')
+    let fitFacotry = FactoryCreator.getFactory('FitFactory')
     let fit: Car = fitFacotry.getCar()
     fit.setBody(fitFacotry.getCarBody())
     fit.setTire(fitFacotry.getTire())
