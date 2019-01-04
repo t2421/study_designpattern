@@ -13,8 +13,8 @@ export default class Main {
     let dir2: Directory = new Directory('dir2')
     dir1.add(file2)
     dir2.add(dir1)
-
-    file1.printList('')
-    dir2.printList('')
+    file2.printFullPath()
+    // file1.printList('')
+    // dir2.printList('')
   }
 }

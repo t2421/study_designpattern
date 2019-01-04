@@ -19,7 +19,8 @@ export default class Directory extends Entry {
   }
   add(entry: Entry): Entry {
     this._directory.push(entry)
-    console.log(this._directory)
+    entry.parent = this
+    console.log('parent', entry.parent)
     return this
   }
   printList(prefix: string = ''): void {
