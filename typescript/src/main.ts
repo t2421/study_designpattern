@@ -7,4 +7,5 @@ import BuilderMain from './builder/Main'
 import AbstractFactoryMain from './abstractfactory/Main'
 import BridgeMain from './bridge/Main'
 import StrategyMain from './strategy/Main'
-var main = new StrategyMain()
+import CompositeMain from './composite/Main'
+var main = new CompositeMain()
