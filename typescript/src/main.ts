@@ -8,4 +8,5 @@ import AbstractFactoryMain from './abstractfactory/Main'
 import BridgeMain from './bridge/Main'
 import StrategyMain from './strategy/Main'
 import CompositeMain from './composite/Main'
-var main = new CompositeMain()
+import DecoratorMain from './decorator/Main'
+var main = new DecoratorMain()
