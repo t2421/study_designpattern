@@ -9,4 +9,5 @@ import BridgeMain from './bridge/Main'
 import StrategyMain from './strategy/Main'
 import CompositeMain from './composite/Main'
 import DecoratorMain from './decorator/Main'
-var main = new DecoratorMain()
+import VisitorMain from './visitor/Main'
+var main = new VisitorMain()
