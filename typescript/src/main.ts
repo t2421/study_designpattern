@@ -10,4 +10,5 @@ import StrategyMain from './strategy/Main'
 import CompositeMain from './composite/Main'
 import DecoratorMain from './decorator/Main'
 import VisitorMain from './visitor/Main'
-var main = new VisitorMain()
+import ChainOfResponsibilityMain from './chainofresponsibility/Main'
+var main = new ChainOfResponsibilityMain()
