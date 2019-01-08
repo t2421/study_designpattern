@@ -11,4 +11,5 @@ import CompositeMain from './composite/Main'
 import DecoratorMain from './decorator/Main'
 import VisitorMain from './visitor/Main'
 import ChainOfResponsibilityMain from './chainofresponsibility/Main'
-var main = new ChainOfResponsibilityMain()
+import FacadeMain from './facade/Main'
+var main = new FacadeMain()
