@@ -12,4 +12,5 @@ import DecoratorMain from './decorator/Main'
 import VisitorMain from './visitor/Main'
 import ChainOfResponsibilityMain from './chainofresponsibility/Main'
 import FacadeMain from './facade/Main'
-var main = new FacadeMain()
+import MediatorMain from './mediator/Main'
+var main = new MediatorMain()
