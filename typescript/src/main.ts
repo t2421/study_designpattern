@@ -14,4 +14,5 @@ import ChainOfResponsibilityMain from './chainofresponsibility/Main'
 import FacadeMain from './facade/Main'
 import MediatorMain from './mediator/Main'
 import ObserverMain from './observer/Main'
-var main = new ObserverMain()
+import MementoMain from './memento/Main'
+var main = new MementoMain()
