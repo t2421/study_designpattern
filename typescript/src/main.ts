@@ -16,4 +16,5 @@ import MediatorMain from './mediator/Main'
 import ObserverMain from './observer/Main'
 import MementoMain from './memento/Main'
 import StateMain from './state/Main'
-var main = new StateMain()
+import FlyweightMain from './flyweight/Main'
+var main = new FlyweightMain()
