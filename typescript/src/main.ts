@@ -17,4 +17,5 @@ import ObserverMain from './observer/Main'
 import MementoMain from './memento/Main'
 import StateMain from './state/Main'
 import FlyweightMain from './flyweight/Main'
-var main = new FlyweightMain()
+import ProxyMain from './proxy/Main'
+var main = new ProxyMain()
